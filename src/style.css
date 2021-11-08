@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .movie-list {
+    padding: 24px;
+    display: flex;
+    grid-gap: 24px;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .movie-container {
+    width: 340px;
+  }
+  
+  .movie-poster {
+    height: 500px;
+    width: 340px;
+    object-fit: cover;
+    background-color: teal;
+  }
+  .movie-specs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+ .inputCollection {
+  padding: 24px;
+  display: flex;
+  grid-gap: 24px;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ }
+
+
